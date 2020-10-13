@@ -1,0 +1,163 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 100%;
+}
+.grille{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-areas:"a1 b1 c1 d1 e1 f1 g1 h1" 
+                        "A2 B2 C2 D2 E2 F2 G2 H2"
+                        "A3 B3 C3 D3 E3 F3 G3 H3"
+                        "A4 B4 C4 D4 E4 F4 G4 H4"
+                        "A5 B5 C5 D5 E5 F5 G5 H5"
+                        "A6 B6 C6 D6 E6 F6 G6 H6"
+                        "A7 B7 C7 D7 E7 F7 G7 H7"
+                        "A8 B8 C8 D8 E8 F8 G8 H8";
+    background-image: url(blackandwhite.jpg);
+    background-size: 100px 100px;
+
+}
+.case {
+    width: 50px;
+    height: 50px;
+}
+.lignechiffres {
+    display: flex;
+    flex-direction: column;
+    margin-left: -80px;
+    margin-top: -80px;
+    width: 50px;
+    height: 400px;
+}
+.chiffre {
+    height: 50px;
+    width: 50px;
+}
+.lignelettres {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-top: 320px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+.lettre {
+    height: 50px;
+    width: 50px;
+}
+.pion {
+    color: rgb(176, 143, 199);
+    text-align: center; 
+    font-size: 40px;
+}
+.pion2 {
+    color: rgb(223, 5, 5);
+    text-align: center; 
+    font-size: 40px; 
+}
+#rook1 {
+    grid-area: h1;
+}
+#rook2 {
+    grid-area: a1;
+}
+#rook3 {
+    grid-area: A8;
+}
+#rook4 {
+    grid-area: H8;
+}
+#knight1 {
+    grid-area: b1;
+}
+#knight2 {
+    grid-area: g1;
+}
+#knight3 {
+    grid-area: B8;
+}
+#knight4 {
+    grid-area: G8;
+}
+#bishop1 {
+    grid-area: c1;
+}
+#bishop2 {
+    grid-area: f1;
+}
+#bishop3 {
+    grid-area: C8;
+}
+#bishop4 {
+    grid-area: F8;
+}
+#queen1 {
+    grid-area: e1;
+}
+#queen2 {
+    grid-area: E8;
+}
+#king1 {
+    grid-area: d1;
+}
+#king2 {
+    grid-area: D8;
+}
+#pawn1 {
+    grid-area: A2;
+}
+#pawn2 {
+    grid-area: B2;
+}
+#pawn3 {
+    grid-area: C2;
+}
+#pawn4 {
+    grid-area: D2;
+}
+#pawn5 {
+    grid-area: E2;
+}
+#pawn6 {
+    grid-area: F2;
+}
+#pawn7 {
+    grid-area: G2;
+}
+#pawn8 {
+    grid-area: H2;
+}
+
+#pawn9 {
+    grid-area: A7;
+}
+#pawn10 {
+    grid-area: B7;
+}
+#pawn11 {
+    grid-area: C7;
+}
+#pawn12 {
+    grid-area: D7;
+}
+#pawn13 {
+    grid-area: E7;
+}
+#pawn14 {
+    grid-area: F7;
+}
+#pawn15 {
+    grid-area: G7;
+}
+#pawn16 {
+    grid-area: H7;
+}
