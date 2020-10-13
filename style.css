@@ -23,12 +23,12 @@ body {
     text-shadow: 0px 0px 11px rgba(0,0,0,2);
     font-weight: bold;
     font-size: larger;
-    background-color: rgb(44, 28, 4);
+    background-color: rgb(37, 37, 37);
     width: 25px;
     height: 25px;
     border-radius: 25%;
     padding-left: 10px;
-    box-shadow: 0px 5px 0.3px 0px #4D2E0A;
+    box-shadow: 0px 5px 0.3px 0px #161616;
 }
 /*box grille*/
 .fond {
