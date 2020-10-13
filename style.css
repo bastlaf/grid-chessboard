@@ -8,7 +8,7 @@
 body {
     margin-top: 30px;
     height: 100%;
-    background-image: url(02676_800x480.jpg);
+    background-image: url(bois.jpg);
     background-size: 100vw;
 }
 
@@ -19,12 +19,17 @@ body {
     width: 450px;
     padding-right: 70px;
 }
-
+.le {
+    text-shadow: 0px 0px 11px rgba(0,0,0,2);
+    font-weight: bold;
+    font-size: larger;
+}
 /*box grille*/
 .fond {
     background-image: url(blackandwhite.jpg);
     background-size: 100px 100px;
     border: ridge 10px rgb(121, 60, 17);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
     width:400px;
     height: 400px;
     display: grid;
