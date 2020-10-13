@@ -1,1 +1,1 @@
-# grid-chessboard
+# https://bastlaf.github.io/grid-chessboard/
