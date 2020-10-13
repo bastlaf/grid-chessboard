@@ -7,8 +7,13 @@
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
     <title>Chessboard</title>
 </head>
+
 <body>
+
+    <!--Section comprenant et la colonne de chiffres, et la grille de jeu-->
     <section class="top">
+
+        <!--création de la colonne de chiffres-->
         <div class="lignechiffres">
             <div class="chiffre"><p class="le">1</p></div>
             <div class="chiffre"><p class="le">2</p></div>
@@ -19,28 +24,31 @@
             <div class="chiffre"><p class="le">7</p></div>
             <div class="chiffre"><p class="le">8</p></div>
         </div>
+        
+        <!--création des pions-->
         <div class="fond">
+            <!--les tours-->
             <p class="pion" id="rook1"><i class="fas fa-chess-rook"></i></p>
             <p class="pion" id="rook2"><i class="fas fa-chess-rook"></i></p>
             <p class="pion2" id="rook3"><i class="fas fa-chess-rook"></i></p>
             <p class="pion2" id="rook4"><i class="fas fa-chess-rook"></i></p>
-
+            <!--les cavaliers-->
             <p class="pion" id="knight1"><i class="fas fa-chess-knight"></i></p>
             <p class="pion" id="knight2"><i class="fas fa-chess-knight"></i></p>
             <p class="pion2" id="knight3"><i class="fas fa-chess-knight"></i></p>
             <p class="pion2" id="knight4"><i class="fas fa-chess-knight"></i></p>
-
+            <!--les fous-->
             <p class="pion" id="bishop1"><i class="fas fa-chess-bishop"></i></p>
             <p class="pion" id="bishop2"><i class="fas fa-chess-bishop"></i></p>
             <p class="pion2" id="bishop3"><i class="fas fa-chess-bishop"></i></p>
             <p class="pion2" id="bishop4"><i class="fas fa-chess-bishop"></i></p>
-
+            <!--les reines-->
             <p class="pion" id="queen1"><i class="fas fa-chess-queen"></i></p>
             <p class="pion2" id="queen2"><i class="fas fa-chess-queen"></i></p>
-
+            <!--les rois-->
             <p class="pion" id="king1"><i class="fas fa-chess-king"></i></p>
             <p class="pion2" id="king2"><i class="fas fa-chess-king"></i></p>
-
+            <!--les pions-->
             <p class="pion" id="pawn1"><i class="fas fa-chess-pawn"></i></p>
             <p class="pion" id="pawn2"><i class="fas fa-chess-pawn"></i></p>
             <p class="pion" id="pawn3"><i class="fas fa-chess-pawn"></i></p>
@@ -49,7 +57,6 @@
             <p class="pion" id="pawn6"><i class="fas fa-chess-pawn"></i></p>
             <p class="pion" id="pawn7"><i class="fas fa-chess-pawn"></i></p>
             <p class="pion" id="pawn8"><i class="fas fa-chess-pawn"></i></p>
-
             <p class="pion2" id="pawn9"><i class="fas fa-chess-pawn"></i></p>
             <p class="pion2" id="pawn10"><i class="fas fa-chess-pawn"></i></p>
             <p class="pion2" id="pawn11"><i class="fas fa-chess-pawn"></i></p>
@@ -58,8 +65,10 @@
             <p class="pion2" id="pawn14"><i class="fas fa-chess-pawn"></i></p>
             <p class="pion2" id="pawn15"><i class="fas fa-chess-pawn"></i></p>
             <p class="pion2" id="pawn16"><i class="fas fa-chess-pawn"></i></p>
-        </div>
+        </div>       
     </section>
+   
+    <!--création de la ligne de lettres (en dessous de la grille, donc pas dans la section "top")-->
     <section class="lignelettres">
         <div class="lettre"><p class="le">A</p></div>
         <div class="lettre"><p class="le">B</p></div>
