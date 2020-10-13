@@ -23,6 +23,12 @@ body {
     text-shadow: 0px 0px 11px rgba(0,0,0,2);
     font-weight: bold;
     font-size: larger;
+    background-color: rgb(44, 28, 4);
+    width: 25px;
+    height: 25px;
+    border-radius: 25%;
+    padding-left: 10px;
+    box-shadow: 0px 5px 0.3px 0px #4D2E0A;
 }
 /*box grille*/
 .fond {
@@ -52,7 +58,7 @@ body {
     flex-direction: column;
     width: 50px;
     height: 400px;
-    color: lightcyan;
+    color: white;
     margin-top: 10px; 
 }
 
@@ -70,7 +76,7 @@ body {
     display: flex;
     width: 400px;
     height: 50px;
-    color: lightcyan;
+    color: white;
     margin: 0 auto;
 }
 
