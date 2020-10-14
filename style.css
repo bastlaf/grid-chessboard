@@ -5,11 +5,11 @@
 }
 
 /*mettre le fond de la page et lui définir une taille*/
-body {
-    margin-top: 30px;
-    height: 100%;
+main {
     background-image: url(bois.jpg);
-    background-size: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 /*titre du site*/
